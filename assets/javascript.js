@@ -1,34 +1,4 @@
-<html>
-<head>
-  
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="assets/style.css"/>
-    <title>Hockey Search</title>
-    
-</head>
-<body>
- 
-    <div class="container">
-    <h1>Hockey Search</h1>
-
-    <div id="buttonsView">
-    </div>
-
-    <form id="hockey-form">
-    <label for="hockey-input">Add a Team Bro</label>
-    <input type="text" id="hockey-input"><br>
-   
-    <input id="addHockey" type="submit" value="Add a Team Bro">
-    </form>
-  
-
- 
-    <div id ="hockeyView">
-   </div>
-
-  <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
-  <script type="text/javascript">
-    var teams = ['NJ Devils', 'NY Rangers', 'Chicago Blackhawks'];
+var teams = ['NJ Devils', 'NY Rangers', 'Chicago Blackhawks'];
  
     
     function appendNewButton(hockey){ 
@@ -121,8 +91,3 @@
 
               $(document).on('click', '.hockey', displayHockeyInfo);
     
-</script>
-
-
-</body>
-</html>
